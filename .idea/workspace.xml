@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d061ef23-c0bc-46ee-b3dc-4eb747c3001f" name="Changes" comment="db">
+    <list default="true" id="d061ef23-c0bc-46ee-b3dc-4eb747c3001f" name="Changes" comment="shop">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DjangoProject/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoProject/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DjangoProject/task1/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoProject/task1/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,13 +25,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/svett/PycharmProjects/Module19/DjangoProject/templates",
+    "settings.editor.selected.configurable": "terminal"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\svett\PycharmProjects\Module19\DjangoProject\templates" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -57,11 +62,29 @@
       <option name="project" value="LOCAL" />
       <updated>1729274672290</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="db2">
+      <option name="closed" value="true" />
+      <created>1729358615775</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1729358615775</updated>
+    </task>
+    <task id="LOCAL-00003" summary="shop">
+      <option name="closed" value="true" />
+      <created>1729529999130</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1729529999130</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="db" />
-    <option name="LAST_COMMIT_MESSAGE" value="db" />
+    <MESSAGE value="db2" />
+    <MESSAGE value="shop" />
+    <option name="LAST_COMMIT_MESSAGE" value="shop" />
   </component>
 </project>
