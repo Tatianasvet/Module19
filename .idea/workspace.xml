@@ -4,22 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d061ef23-c0bc-46ee-b3dc-4eb747c3001f" name="Changes" comment="shop">
-      <change afterPath="$PROJECT_DIR$/DjangoProject/blog/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DjangoProject/blog/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DjangoProject/blog/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DjangoProject/blog/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DjangoProject/blog/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DjangoProject/blog/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DjangoProject/blog/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DjangoProject/templates/blog_page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DjangoProject/DjangoProject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoProject/DjangoProject/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DjangoProject/DjangoProject/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoProject/DjangoProject/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DjangoProject/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoProject/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DjangoProject/task1/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoProject/task1/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DjangoProject/templates/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoProject/templates/menu.html" afterDir="false" />
-    </list>
+    <list default="true" id="d061ef23-c0bc-46ee-b3dc-4eb747c3001f" name="Changes" comment="shop" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,6 +19,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
@@ -51,6 +37,11 @@
     "git-widget-placeholder": "master",
     "last_opened_file_path": "C:/Users/svett/PycharmProjects/Module19/DjangoProject/templates",
     "settings.editor.selected.configurable": "terminal"
+  },
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "directory"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
