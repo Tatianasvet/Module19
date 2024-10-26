@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <title>{% block title %}My shop{% endblock %}</title>
+    <style>
+        button {font-size: 90%}
+    </style>
 </head>
 <body>
     {% block pagename %}
@@ -12,6 +15,7 @@
         <p><a href="http://127.0.0.1:8000/">Главная</a></p>
         <p><a href="http://127.0.0.1:8000/catalog">Магазин</a></p>
         <p><a href="http://127.0.0.1:8000/user">Корзина</a></p>
+        <p><a href="http://127.0.0.1:8000/blog">Блог</a></p>
     {% endblock %}
     {% block content %}
     {% endblock %}

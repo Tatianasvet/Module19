@@ -1,0 +1,51 @@
+{% extends 'menu.html' %}
+{% block content %}
+<h1>Публикации</h1>
+    <ul>
+        {% for post in page_posts %}
+            <li>
+                {{ post.title }} ({{ post.date }})
+                <p>{{ post.text }}</p>
+            </li>
+        {% empty %}
+            <p>Нет постов.</p>
+        {% endfor %}
+    </ul>
+    <!-- показываем пагинатор -->
+    <div class="pagination" style="font-size: 130%; text-align: center; word-spacing: 5px">
+        <p>Страницы:
+            {% if page_posts.has_previous %}
+                <button><a href="?page=1"><<<</a></button>
+                <button><a href="?page={{ page_posts.previous_page_number }}"><</a></button>
+            {% endif %}
+            {% for page in num_page_list %}
+                {% if page == 0 %}
+                    ...
+                {% elif page == page_posts.number %}
+                    {{ page }}
+                {% else %}
+                    <button><a href="?page={{ page }}">{{ page }}</a></button>
+                {% endif %}
+            {% endfor %}
+            {% if page_posts.has_next %}
+                <button><a href="?page={{ page_posts.next_page_number }}">></a></button>
+                <button><a href="?page={{ paginator.num_pages }}">>>></a></button>
+            {% endif %}
+        </p>
+        <p>
+            <form method="POST">
+                {% csrf_token %}
+                <label for="select_page_len">Выберите количество постов на одной странице:</label>
+                <select name="page_len" id="select_page_len" style="font-size: inherit;">
+                    <option>1</option>
+                    <option>3</option>
+                    <option>5</option>
+                    <option>all</option>
+                </select>
+                <button type="submit" >Применить</button>
+            </form>
+        </p>
+    </div>
+</body>
+</html>
+{% endblock %}

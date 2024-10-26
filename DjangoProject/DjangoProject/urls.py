@@ -17,6 +17,9 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from task1.views import home_page, catalog, my_games, sign_up_by_html
+from blog.views import BlogPage
+
+blog_page = BlogPage()
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -24,4 +27,5 @@ urlpatterns = [
     path('catalog/', catalog),
     path('user/', my_games),
     path('sign_up/', sign_up_by_html),
+    path('blog/', blog_page.get_page)
 ]
